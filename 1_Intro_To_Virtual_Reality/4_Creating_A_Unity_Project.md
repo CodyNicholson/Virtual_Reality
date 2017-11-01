@@ -1,0 +1,9 @@
+# Creating A Unity Project
+
+After downloading Unity Game Engine, you can create a project by opening the program, clicking the new project button, naming the project, selecting "3D", and clicking "Create". After this the project will be created and the editor will appear.
+
+In the middle of the screen you will see the **Scene View**. This is where we will be able to view the world that we're creating. By default, Unity creates a really simple scene that allows us to see the sky and the ground. If you hold down the right mouse button with the cursor on the scene view, you can use WASD to navigate around the scene.
+
+Next to the scene view we have the **Hierarchy**. This is a place where we can see a list of all of the game objects we have added to our scene. A **Game Object** is Unity's way of representing anything that can affect our scene. A game object could be a light, a cube, or a complex character. Currently we have a main camera and a directional light.
+
+Each game object can have many components and we can see those in the **Inspector**, which is another window that is usually located on the right.To view components in the inspector, we need to click on a game object. This will give you a list of all the components of the game object you clicked. If we click on the "Main Camera" object we will see the Transform, Camera, GUI Layer, Flair Layer, and Audio Listener components. Each component has a list of properties that we can use to customize the way a component behaves. We will examine this by working with the Transform component of the main camera. The Transform component has three properties: Position, Rotation, and Scale. Every game object has a Transform component. For each game object there is a tool in the top left where we can change these properties visually.
